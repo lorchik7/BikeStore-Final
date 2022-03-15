@@ -16,7 +16,22 @@ namespace TheStoreFinal.Models
         [Column("store_name", TypeName = "varchar")]
         public string StoreName { get; set; }
 
+        [Column("phone", TypeName = "varchar")]
+        public string Phone { get; set; }
+
+        [Column("email", TypeName = "varchar")]
+        public string Email { get; set; }
+
+        [Column("street", TypeName = "varchar")]
+        public string Street { get; set; }
+
         [Column("city", TypeName = "varchar")]
         public string City { get; set; }
+
+        [Column("state", TypeName = "varchar")]
+        public string State { get; set; }
+
+        [Column("zip_code", TypeName = "varchar")]
+        public string Code { get; set; }
     }
 }
