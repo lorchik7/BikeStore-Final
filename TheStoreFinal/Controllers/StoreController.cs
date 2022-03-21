@@ -66,7 +66,7 @@ namespace TheStoreFinal.Controllers
         {
             _db.Stores.Update(store);
             _db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Edit");
         }
 
         public IActionResult Delete(int? id)
